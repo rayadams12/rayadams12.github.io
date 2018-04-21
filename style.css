@@ -1,0 +1,164 @@
+
+.header {
+    background-color: black;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.title {
+    flex: 1.5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.title h1{
+    margin: 0px;
+    font-size: 170%;
+}
+
+.title a {
+    color: whitesmoke;
+}
+
+.cats {
+    flex: 2.5;
+}
+
+.cats a {
+    color: lightgray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.new {
+    background-image: url("supremecap.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 60vh;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-right: 5%;
+    text-align: right;
+}
+
+.new h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 450%;
+}
+
+.new h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 200%;
+}
+
+.new a {
+    color: white;
+    font-size: 125%;
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brands1 {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.deep10 {
+    background-image: url("10deephat.jpg");
+    background-position: right;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    text-align: center;
+}
+
+.deep10 h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 200%;
+}
+
+.deep10 a {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.adidas {
+    background-image: url("adidashat.jpeg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    text-align: center;
+}
+
+.adidas h1 {
+    color:whitesmoke;
+    font-family: 'Monoton', cursive;
+    font-size: 300%;
+}
+
+.adidas a {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+.bbc {
+    background-image: url("bbchat.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    text-align: center;
+}
+
+.bbc h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 200%;
+}
+
+.bbc a {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

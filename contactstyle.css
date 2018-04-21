@@ -1,0 +1,70 @@
+.header {
+    background-color: black;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.title {
+    flex: 1.5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.title h1{
+    margin: 0px;
+    font-size: 170%;
+}
+
+.title a {
+    color: whitesmoke;
+}
+
+.cats {
+    flex: 2.5;
+}
+
+.cats a {
+    color: lightgray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   background-image: url("contactpic.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+}
+
+.contactinfo {
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-around;
+}
+
+.psa {
+    flex:2;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-top: 60px;
+}
+

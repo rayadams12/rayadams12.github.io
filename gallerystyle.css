@@ -1,0 +1,95 @@
+.header {
+    background-color: black;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.title {
+    flex: 1.5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.title h1{
+    margin: 0px;
+    font-size: 170%;
+}
+
+.title a {
+    color: whitesmoke;
+}
+
+.cats {
+    flex: 2.5;
+}
+
+.cats a {
+    color: lightgray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+.capa, .capb, .capc {
+    flex:1;
+}
+
+.capa img, .capb img, .capc img {
+    width:80%;
+    height: 80%;
+}
+
+.capa p, .capb p, .capc p {
+    width:80%;
+    height: 80%;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.capd, .cape, .capf {
+    flex:1;
+}
+
+.capd img, .cape img, .capf img {
+    width:80%;
+    height: 90%;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.capg, .caph, .capi {
+    flex:1;
+}
+
+.capg img, .caph img, .capi img {
+    width:75%;
+    height: 60%;
+}

@@ -1,0 +1,71 @@
+.header {
+    background-color: black;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.title {
+    flex: 1.5;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+.title h1{
+    margin: 0px;
+    font-size: 170%;
+}
+
+.title a {
+    color: whitesmoke;
+}
+
+.cats {
+    flex: 2.5;
+}
+
+.cats a {
+    color: lightgray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("aboutmebkgrdpic.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bio {
+    margin-top: 40px;
+}
+
+.aboutme {
+    display:flex;
+    justify-content: space-around;
+}
+
+.short {
+    flex:1;
+}
+
+.short img {
+    width:100%;
+}
+
+.aboutme h3 {
+    background-color: burlywood;
+    color: black;
+    flex: 4;
+    padding-left: 40px;
+}
